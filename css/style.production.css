@@ -389,7 +389,7 @@ button:hover,
 table {
   position: relative;
   border-collapse: collapse;
-  width: 100%;
+  width: auto;
   font-size: 12px;
 }
 
