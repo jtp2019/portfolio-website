@@ -1,0 +1,53 @@
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #fff;
+  --primary-bg-color: #960b89;
+  --secondary-bg-color: #5e0b96;
+}
+
+$primary-color:  #960b89;
+$primary-color-darker: darken($primary-color, 10%);
+$primary-color-lighter: lighten($primary-color, 40%);
+
+%box-shared {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  border: black;
+}
+
+.box__wrapper {
+  @extend %box-shared;
+
+  div {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 3px 19px 0px rgba(0, 0, 0, 0.3);
+    color: var(--primary-color);
+  }
+
+  div:hover {
+    box-shadow: none;
+  }
+
+  .box-primary {
+    background-color: var(--primary-bg-color);
+  }
+
+  .box-primary-lighter {
+    background-color: $primary-color-lighter;
+  }
+
+  .box-primary-darker {
+    background-color: $primary-color-darker;
+  }
+
+  .box-secondary {
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-color);
+  }
+}
