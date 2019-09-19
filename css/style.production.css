@@ -95,7 +95,7 @@ nav a:hover {
    -webkit-box-direction: normal;
    -ms-flex-direction: column;
    flex-direction: column;
-   margin-top: 250px;
+   margin-top: 1000px;
    text-align: center;
    background-color: lightblue;
 }
@@ -417,8 +417,4 @@ th {
    to {
        text-shadow: 0 0 20px #fff, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #9400b3, 0 0 60px #00ff00, 0 0 70px #0000ff, 0 0 80px #4b0082;
    }
-}
-@-ms-viewport {
-  width: device-width;
-  zoom: 1;
 }
