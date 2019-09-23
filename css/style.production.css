@@ -95,7 +95,11 @@ nav a:hover {
    -webkit-box-direction: normal;
    -ms-flex-direction: column;
    flex-direction: column;
+<<<<<<< HEAD
    margin-top: 150px;
+=======
+   margin-top: 250px;
+>>>>>>> 08ec9da50cab795d01364af383e93d92ee6dd66d
    text-align: center;
    background-color: lightblue;
 }
